@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--font1);
+  color: white;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font: weight 300px;
+  font-style: normal;
+}
+
+.fixed {
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  top: 100px;
+  right: 0px;
+  width: 50px;
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+}
+
+.fixed i {
+  color: black;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-logo {
+  width: 490px;
+padding: 100px;
+}
+
+#logo {
+  width: 40px;
+  cursor: pointer;
+}
+
+.nav-links ul {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+li {
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(191, 178, 178);
+}
+
+.icon-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding-left: 400px;
+}
+
+.icon-box i {
+  color: rgb(0, 0, 0);
+  size: 50px;
+  cursor: pointer;
+
+}
+
+
+main {
+  height: calc(70vh - 100px);
+  width: 100%;
+  background-image: url(https://d3f86pfw66amx.cloudfront.net/uncode/wp-content/uploads/2022/07/fabio-alves-HNaC2lbnK_0-unsplash-uai-1400x622.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 35px;
+  width: 550px;
+  text-align: left;
+}
+
+main h3 {
+  text-align: left;
+
+}
+
+main {
+  text-align: left;
+  padding-left: 90px;
+  padding-top: 80px;
+}
+
+main button {
+  display: flex;
+  background: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+main button:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: 500ms;
+}
+
+
+section .sort {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  padding-right: 100px;
+}
+
+section .sort p {
+  color: black;
+  padding: 30px 20px 20px;
+}
+
+section .sort i {
+  display: flex;
+  color: rgb(0, 0, 0);
+  size: 50px;
+  padding: 30px 20px 20px;
+  cursor: pointer;
+}
+
+.categories h4 {
+  color: black;
+}
+
+label {
+  color: black;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  border: none;
+  width: 500px;
+}
+
+.categories .boxs ul li {
+  padding-left: 30px;
+  display: flex;
+}
+
+.categories .boxs .box1 {
+  border: none;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.categories .boxs .box2 {
+  border: none;
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.categories .boxs .box3 {
+  border: none;
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.categories .boxs .box4 {
+  border: none;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.categories .boxs .box5 {
+  border: none;
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.categories i {
+  position: absolute;
+  padding-left: 280px;
+  color: black;
+  cursor: pointer;
+}
+
+.brand_img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+
+}
+
+.brand_img img {
+  border: 1px solid rgb(231, 223, 223);
+  width: 60px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+}
+
+.block .block_two {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 100%
+}
+
+
+.product_img {
+  height: 280px;
+  width: 220px;
+}
+
+.product_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.product {
+  position: relative;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: none;
+
+}
+
+.products .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products .logo img {
+  width: 100px;
+}
+
+.product_text h2,
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+
+.product_icon {
+  position: absolute;
+  top: 3px;
+  right: 32px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(56, 55, 54);
+}
+
+.product_icon i {
+  color: black;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+hr {
+  width: 100%;
+}
+
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 70px 0px;
+}
+
+
+.footer-col p {
+  color: #ffffff;
+  text-align: left;
+}
+
+.footer-col label {
+  color: #ffffff;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #f90d0d;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a { 
+  display: inline block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #000000;
+}
+
+.footer-col .social-links {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.footer-col .social-links p {
+  text-align: center;
+  font-size: 10px;
+}
